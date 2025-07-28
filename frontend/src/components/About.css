@@ -1,0 +1,76 @@
+/* About.css */
+
+.about-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.about-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.about-container h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.about-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-container ul li {
+  background: #f8f9fa;
+  border-left: 5px solid #3498db;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.about-container ul li strong {
+  display: inline-block;
+  width: 160px;
+  color: #2c3e50;
+}
+
+.about-container a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .about-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-container h2 {
+    font-size: 1.5rem;
+  }
+}

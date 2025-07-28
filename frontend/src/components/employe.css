@@ -1,0 +1,127 @@
+.employment-form {
+  max-width: 800px; /* Adjust the maximum width of the form */
+  margin: auto; /* Center the form on the page */
+  padding: 20px; /* Add padding to the form */
+  border: 1px solid pink; /* Add a border */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  background-image:url("https://img.freepik.com/free-photo/blue-wall-background_53876-88663.jpg?size=626&ext=jpg") ;
+  border: 2px solid rgb(1, 1, 85);
+  border-radius: 20px;
+  padding: 10px;
+}
+.centered-text {
+  text-align: center; /* Center-aligns text within the div */
+  color: darkblue; /* Sets text color */
+  display: flex; /* Utilizes flexbox layout */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  font-weight: Bookman Old Style; /* Apply bold font weight */
+ }
+
+.left-image {
+  width: 100px; /* Adjust the width of the image */
+  height: auto; /* Ensures the aspect ratio of the image is maintained */
+  margin-right: 20px; /* Adjusts spacing between the image and the text */
+  border-radius: 20px;
+  /* padding: 40px; */
+}
+
+
+
+.bg {
+  
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-position: center; /* Centers the background image */
+  /* Additional background properties can be added as needed */
+}
+
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-field {
+  width: calc(40% - 20px); /* Adjust the width of each form field */
+  margin-bottom: 10px; /* Add margin between form fields */
+  color: #0909e5;
+  font-weight: Bookman Old Style; /* Apply bold font weight */
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: initial;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#birthDate {
+  cursor: pointer; /* Add cursor pointer for the calendar input */
+ 
+}
+
+.error {
+  color: #e6343b; /* Set the color for error messages */
+  margin-top: 5px; /* Add margin for better spacing */
+}
+
+.submit-button {
+  background-color:rgb(24, 171, 234);
+  color: rgb(92, 35, 92);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100px; /* Increase width */
+  height: 40px; /* Decrease height */
+  margin-left: 250px;
+  text-align: center;
+ }
+
+ /* CSS file (e.g., employe.css) */
+
+/* Style for select element */
+.form-field select {
+  /* Define your desired text color */
+  color:black; /* Example color */
+
+  /* Specify font properties */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style for option elements */
+.form-field select option {
+  /* Define your desired background color */
+  background-color:gray; /* Example background color */
+
+  /* Specify font properties */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+
+  /* Adjust padding and margin if needed */
+  padding: 5px;
+  margin: 0;
+}
+
+/* .custom-calendar {
+  
+} */
+
+/* .custom-calendar-container {
+  
+} */
+
+/* .custom-weekend {
+  background-color: #1d0ea0;
+ } */
+
